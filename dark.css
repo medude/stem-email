@@ -1,4 +1,44 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'GidoleRegular', sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px white;
+    padding: 3px;
+}
+
+thead {
+    font-weight: bolder;
+}
+
+footer {
+    border-top: solid 1px white;
+    margin-top: 0.5in;
+}
+
+footer > h1 {
+    font-size: medium;
+}
+
+footer > table {
+    font-size: small;
+    border: none;
+    display: inline;
+}
+
+footer td {
+    border: none;
+}
+
+footer tr {
+    border: solid 1px white;
 }
